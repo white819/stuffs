@@ -25,10 +25,12 @@ var paths = {
     yeoman.app + '/bower_components/angular-cookies/angular-cookies.js',
     yeoman.app + '/bower_components/angular-sanitize/angular-sanitize.js',
     yeoman.app + '/bower_components/angular-route/angular-route.js',
+    yeoman.app + '/bower_components/angular-animate/angular-animate.js',
+    yeoman.app + '/bower_components/angular-touch/angular-touch.js',
     'test/mock/**/*.js',
     'test/spec/**/*.js'
   ],
-  karma: 'karma.conf.js',
+  karma: 'test/karma.conf.js',
   views: {
     main: yeoman.app + '/index.html',
     files: [yeoman.app + '/views/**/*.html']

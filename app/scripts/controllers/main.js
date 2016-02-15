@@ -7,9 +7,10 @@
  * # MainCtrl
  * Controller of the stuffsApp
  */
+
 angular.module('stuffsApp')
-  .controller('MainCtrl', function () {
-    this.awesomeThings = [
+  .controller('MainCtrl', function ($scope) {
+    $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
       'Karma'

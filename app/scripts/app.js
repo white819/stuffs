@@ -21,6 +21,7 @@ var app = angular
     'ui.grid.moveColumns',
     'ui.grid.edit',
     'ui.grid.selection',
+    'ui.grid.pagination',
     'ui.bootstrap.stackedMap',
     'ui.bootstrap.modal'
   ])
